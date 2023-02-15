@@ -1,0 +1,63 @@
+.container {
+    background-color: white ;
+    padding: 20px ;
+    display: flex;
+    flex-flow: column wrap;
+    width: 350px;
+    height: 300px;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+h1{
+    margin:10px;
+    padding:0;
+    align-self: center;
+}
+input, button{
+    border: none ;
+    background-color: #e7e7e7;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+
+button {
+    background-color: dodgerblue;
+    color: white ;
+}
+
+
+.box1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+
+.box2 {
+    justify-content: space-around;
+}
+
+
+a {
+    text-decoration: none ;
+    color: dodgerblue ;
+}
+
+
+body {
+    margin: 0 ;
+}
+
+
+.root-container {
+    background-color: #e7e7e7;
+    height: 100vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+
